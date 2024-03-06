@@ -1,0 +1,94 @@
+body {
+
+  background: lightblue;
+}
+
+header nav ul li{
+
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  padding: 30px;
+}
+
+fieldset {
+
+  background: lightcoral;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main fieldset h1, main div h3 {
+
+  color: aliceblue;
+}
+
+div {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div h3 {
+
+  background-color: lightcoral;
+  border-radius: 15px;
+  width: 25%;
+  padding: 5px;
+}
+
+header {
+
+  background: white;
+  border-radius: 50px;
+  padding: 15px;
+}
+
+header ul li:first-child a {
+
+  color: gold;
+  font-weight: bold;
+  width: 5%;
+  border-radius: 5px;
+}
+
+header ul li +li a {
+
+  color: red;
+  font-weight: bold;
+  width: 5%;
+  border-radius: 5px;
+}
+
+header ul li +li +li a {
+
+  color: lightgreen;
+  font-weight: bold;
+  width: 5%;
+  border-radius: 5px;
+}
+
+header ul li:last-child a {
+
+  color: blue;
+  font-weight: bold;
+  width: 5%;
+  border-radius: 5px;
+}
+
+input{
+
+  background-color: lemonchiffon;
+}
+
+input[type=tel]{
+
+  background-color: lightcyan;
+}
+
+a[href="Servicios.html"] {
+
+  color: black;
+}
+
+select{
+
+  background-color: lightgreen;
+}
