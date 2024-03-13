@@ -1,6 +1,6 @@
 body {
 
-  background: lightblue;
+  background: #679B9B;
 }
 
 header nav ul li{
@@ -12,15 +12,25 @@ header nav ul li{
 
 fieldset {
 
-  background: lightcoral;
+  background: #ffeadb;
   font-family: Arial, Helvetica, sans-serif;
   width: 50%;
   border-radius: 15px;
 }
 
-main fieldset h1, main div h3 {
+main fieldset h1 {
 
-  color: aliceblue;
+  color: #FF9A76;
+}
+
+main fieldset p {
+
+  color: #637373;
+}
+
+main div h3 {
+
+  color: #679B9B;
 }
 
 div {
@@ -30,7 +40,7 @@ div {
 
 div h3 {
 
-  background-color: lightcoral;
+  background-color: #FF9A76;
   border-radius: 15px;
   width: 25%;
   padding: 5px;
@@ -38,52 +48,25 @@ div h3 {
 
 header {
 
-  background: white;
+  background: #ffeadb;
   border-radius: 20px;
   padding: 15px;
 }
 
-header ul li:first-child a {
-
-  color: gold;
-  font-weight: bold;
-  width: 5%;
-  border-radius: 5px;
-}
-
 header ul li +li a {
 
-  color: red;
+  color: black;
   font-weight: bold;
   width: 5%;
   border-radius: 5px;
 }
 
-header ul li +li +li a {
-
-  color: lightgreen;
-  font-weight: bold;
-  width: 5%;
-  border-radius: 5px;
-}
-
-header ul li:last-child a {
-
-  color: blue;
-  font-weight: bold;
-  width: 5%;
-  border-radius: 5px;
-}
 
 input{
 
-  background-color: lemonchiffon;
+  background-color: #ffeadb;
+  border: #ffeadb;
   border-radius: 5px;
-}
-
-input[type=tel]{
-
-  background-color: lightcyan;
 }
 
 a[href="Servicios.html"] {
@@ -93,7 +76,8 @@ a[href="Servicios.html"] {
 
 select{
 
-  background-color: lightgreen;
+  background-color:  #637373;
+;
   border-radius: 5px;
 }
 
